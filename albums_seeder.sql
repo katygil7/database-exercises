@@ -1,0 +1,35 @@
+INSERT INTO albums (artist_name, record_name, release_date,record_genre, record_sale)
+VALUES ('Michael Jackson','Thriller',1982,'Pop',70),
+       ('AC/DC','Back in Black',1980,'Hard rock',50),
+       ('Whitney Houston','The Bodyguard',1992,'R&B', 45),
+       ('Pink Floyd','The Dark Side of the Moon',1973,'Progressive rock',45),
+       ('Eagles','Their Greatest Hits',1976,'Country rock',44),
+       ('Eagles','''Hotel California',1976,'Soft rock',42 ),
+       ('Shania Twain','Come On Over',1997,'Country',40),
+       ('Fleetwood Mac','Rumours',1977,'Soft rock',40),
+       ('Bee Gees','Saturday Night Fever',1977,'Disco',40),
+       ('Led Zeppelin','Led Zeppelin IV',1971,'Hard rock',37),
+       ('Michael Jackson','Bad',1987,'Pop',35),
+       ('Meat Loaf','Bat Out of Hell',1977,'Hard rock',34),
+       ('Alanis Morissette','Jagged Little Pill',1995,'Alternative rock',33),
+       ('Various artists','Dirty Dancing',1987,'Pop',32),
+       ('Celine Dion','Falling into You',1996,'Pop',32),
+       ('Adele','21',2011,'Pop',31),
+       ('The Beatles','1',2000,'Rock',31),
+       ('Metallica','Metallica',1991,'Heavy metal',31),
+       ('Celine Dion','Let''s Talk About Love',1997,'Pop',31),
+       ('Guns, N'' Roses','Appetite for Destruction',1987,'Hard rock',30),
+       ('Bob Marley & The Wailers','Legend: The Best of Bob Marley & The Wailers',1984,	'Reggae',30),
+       ('Bruce Springsteen','Born in the U.S.A.',1984,'Heartland rock',30),
+       ('ABBA',	'Gold: Greatest Hits',	1992,'Pop',30),
+       ('Dire Straits',	'Brothers in Arms',	1985,	'Roots rock',30),
+       ('Santana','Supernatural',1999,'Latin rock',30),
+       ('Madonna','The Immaculate Collection',1990,'Pop',30),
+       ('Pink, Floyd','The Wall',1979,'Progressive rock',30),
+       ('The Beatles','Sgt. Pepper''s Lonely Hearts Club Band',1967,'Rock',30),
+       ('Michael Jackson','Dangerous',1991,'New jack swing',30),
+       ('The Beatles','Abbey Road',1969,'Rock',30);
+
+
+
+
