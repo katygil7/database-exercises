@@ -24,4 +24,4 @@ SELECT record_name From albums WHERE record_sale < 20;
 SELECT * FROM albums WHERE record_genre = 'rock';
 
 -- to look for the word rock in all inputs
-SELECT * FROM albums WHERE record_genre LIKE '%rock';
+SELECT * FROM albums WHERE record_genre LIKE '%rock%';
