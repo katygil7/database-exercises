@@ -1,3 +1,5 @@
+use katherine;
+truncate albums;
 INSERT INTO albums (artist_name, record_name, release_date,record_genre, record_sale)
 VALUES ('Michael Jackson','Thriller',1982,'Pop',50.2),
        ('AC/DC','Back in Black',1980,'Hard rock',30.1),
