@@ -19,16 +19,18 @@ select now(), date_add(now(), interval -1 week) as one_week_ago,
 # Use concat() to combine their first and last name together as a single column in your results.
 select concat(first_name, ' ', last_name) as Full_Name
 from employees
-where last_name like '%E%'
+where last_name like 'E%'
+    and last_name like '%E'
 order by first_name;
+
 # Find all employees born on Christmas — 842 rows.
-select birth_date
+select *
 from employees
 where month(birth_date) = 12
 and day (birth_date) = 25;
 
 #Find all employees hired in the 90s and born on Christmas — 362 rows.
-select birth_date, hire_date
+select *
 from employees
 where year(hire_date) between 1990 and 1999
     and month(birth_date) = 12
@@ -36,12 +38,12 @@ where year(hire_date) between 1990 and 1999
 order by hire_date;
 
 # Change the query for employees hired in the 90s and born on Christmas such that the first result is the oldest employee who was hired last.
-select first_name, last_name, birth_date, hire_date
+select *
 from employees
 where year(hire_date) between 1990 and 1999
   and month(birth_date) = 12
   and day (birth_date) = 25
-order by hire_date desc;
+order by birth_date, hire_date desc;
 
 #For your query of employees born on Christmas and hired in the 90s, use datediff() to find how many days they have been working at the company (Hint: You might also need to use now() or curdate()).
 select datediff(curdate(), hire_date),
