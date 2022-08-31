@@ -14,4 +14,7 @@ limit 5;
 select emp_no
 from salaries
 order by salary desc
-limit 4 offset 46;
+limit 5 offset 45;
+# (desired_page_number -1) * limit amount)
+# (desired_page_number * limit_amount -limit_amount) 10 * 5 - 5 
+
